@@ -4,7 +4,7 @@
 
     int diaSemana,i; 
 
-    while(diaSemana != 0){
+    do{
         
         printf ("Digite um numero, para saber quual dia da semana corresponde a ele (caso deseje encerrar digite 0): ");
         scanf("%d",  &diaSemana);
@@ -30,7 +30,7 @@
             printf("O numero digitado nao corresponde a nenhum dia da semana !!!!\n");
         }
 
-    }
+    }while(diaSemana != 0);
     
     return 0;
 }
