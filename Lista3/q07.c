@@ -14,7 +14,7 @@ int main(){
 
     
     for(int i = 0; i < TAMV; i++){
-        Vnums[i] = (rand() % (19 + 1 - 0));
+        Vnums[i] = (rand() % (19 + 1));
         //printf("%d\n",Vnums[i]);
     }
 
@@ -27,6 +27,6 @@ int main(){
         mediaAri = (float) soma/TAM;
         mediaGeo = pow(produto,(1.0/TAMV));
 
-    printf("A media aritmetica foi: %2.f\n A media geometrica foi: %.2f", mediaAri, mediaGeo);
+    printf("A media aritmetica foi: %2.f\nA media geometrica foi: %.2f", mediaAri, mediaGeo);
     return 0;
 }
