@@ -28,7 +28,7 @@ int main(){
             }
     }
     
-    printf(" %d\n", count);
+    printf("O numero %d apareceu  %d vezes\n", x,count);
     return 0;
 }
 
