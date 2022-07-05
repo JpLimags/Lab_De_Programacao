@@ -24,7 +24,7 @@ int main(){
 
     if(!m.pnums){
 
-        printf("Deu merda !");
+        printf("Não foi possível alocar memória");
         exit(1);
     }
 
